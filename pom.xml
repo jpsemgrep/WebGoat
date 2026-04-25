@@ -80,6 +80,14 @@
     <jose4j.version>0.9.3</jose4j.version>
     <jquery.version>3.7.1</jquery.version>
     <jsoup.version>1.19.1</jsoup.version>
+    <!--
+      Pinned to 1.33 to introduce a transitive vulnerability (CVE-2022-1471
+      in SnakeYAML's default Constructor) for the plumbline reachability
+      workflow's transitive-dep test fixtures. snakeyaml is brought in
+      transitively by spring-boot-starter; overriding the version property
+      keeps it transitive while introducing the vulnerable surface.
+    -->
+    <snakeyaml.version>1.33</snakeyaml.version>
     <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
     <maven-failsafe-plugin.version>3.5.2</maven-failsafe-plugin.version>
     <maven-jar-plugin.version>3.1.2</maven-jar-plugin.version>
