@@ -10,7 +10,7 @@ org.owasp.webgoat:webgoat:jar:2025.4-SNAPSHOT
 |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.24.3:compile
 |  |  |  \- org.slf4j:jul-to-slf4j:jar:2.0.17:compile
 |  |  +- jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
-|  |  \- org.yaml:snakeyaml:jar:2.4:compile
+|  |  \- org.yaml:snakeyaml:jar:1.33:compile
 |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.46:compile
 |  \- org.hibernate.validator:hibernate-validator:jar:8.0.3.Final:compile
 |     +- jakarta.validation:jakarta.validation-api:jar:3.0.2:compile
